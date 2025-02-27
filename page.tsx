@@ -14,7 +14,7 @@ export default function Page() {
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center">
         <Image
-          src="/hero.jpg?height=1080&width=1920"
+          src="/Hero.jpg?height=1080&width=1920"
           alt="Beautiful decorated cake"
           fill
           className="object-cover brightness-[0.85]"
