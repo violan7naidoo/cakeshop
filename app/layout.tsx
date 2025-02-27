@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'The Bake Shop at Crescent',
+  description: 'Created by Ve3z',
+  generator: 've3z',
 }
 
 export default function RootLayout({
