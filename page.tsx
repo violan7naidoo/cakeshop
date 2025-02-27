@@ -20,10 +20,7 @@ export default function Page() {
           className="object-cover brightness-[0.85]"
           priority
         />
-        <div className="relative z-10 text-center text-white">
-          <h1 className="font-playfair text-5xl md:text-7xl mb-4"></h1>
-          <p className="font-inter text-xl md:text-2xl italic"></p>
-        </div>
+        
       </section>
 
       {/* About Section */}
