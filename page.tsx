@@ -11,16 +11,33 @@ export default function Page() {
     <div className="min-h-screen bg-[#FDF8F5]">
       <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center">
+    
+      {/* Mobile Hero Section (visible below sm breakpoint) */}
+      <section className="relative h-[50vh] flex items-center justify-center sm:hidden">
         <Image
-          src="/Hero.jpg?height=1080&width=1920"
+          src="/HeroMobile.jpg"
+          alt="Beautiful decorated cake (mobile)"
+          fill
+          className="object-cover brightness-[0.85]"
+          priority
+        />
+        <div className="relative z-10 text-center text-white">
+        
+        </div>
+      </section>
+
+      {/* Desktop Hero Section (visible on sm and above) */}
+      <section className="relative h-[90vh] hidden sm:flex items-center justify-center">
+        <Image
+          src="/Hero.jpg"
           alt="Beautiful decorated cake"
           fill
           className="object-cover brightness-[0.85]"
           priority
         />
-        
+        <div className="relative z-10 text-center text-white">
+   
+        </div>
       </section>
 
       {/* About Section */}
