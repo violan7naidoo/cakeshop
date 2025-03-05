@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export function Gallery2() {
   const images = [
-    { src: "/aa.jpg?height=400&width=400", alt: "Cake 1" },
+    { src: "/m.jpg?height=400&width=400", alt: "Cake 1" },
     { src: "/g.jpg?height=400&width=400", alt: "Cake 2" },
     { src: "/w.jpg?height=400&width=400", alt: "Cake 3" },
     { src: "/k.jpg?height=400&width=400", alt: "Cake 4" },
-    { src: "/r.jpg?height=400&width=400", alt: "Cake 5" },
+    { src: "/ii.jpg?height=400&width=400", alt: "Cake 5" },
     { src: "/q.jpg?height=400&width=400", alt: "Cake 6" },
     { src: "/o.jpg?height=400&width=400", alt: "Cake 7" },
     { src: "/cc.jpg?height=400&width=400", alt: "Cake 8" },
     { src: "/b.jpg?height=400&width=400", alt: "Cake 9" },
-    { src: "/m.jpg?height=400&width=400", alt: "Cake 10" },
+    { src: "/uu.jpg?height=400&width=400", alt: "Cake 10" },
     { src: "/kk.jpg?height=400&width=400", alt: "Cake 11" },
     { src: "/l.jpg?height=400&width=400", alt: "Cake 12" },
   ];
