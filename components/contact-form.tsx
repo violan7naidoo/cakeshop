@@ -29,7 +29,7 @@ export function ContactForm() {
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           required
-          className="border-[#E8B4B8] focus:border-[#4A3427]"
+          className="border-[#E8B4B8] focus:border-[#0f0e0e]"
         />
       </div>
       <div>
@@ -39,7 +39,7 @@ export function ContactForm() {
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           required
-          className="border-[#E8B4B8] focus:border-[#4A3427]"
+          className="border-[#E8B4B8] focus:border-[#0f0e0e]"
         />
       </div>
       <div>
@@ -48,7 +48,7 @@ export function ContactForm() {
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
           required
-          className="border-[#E8B4B8] focus:border-[#4A3427] min-h-[150px]"
+          className="border-[#E8B4B8] focus:border-[#0f0e0e] min-h-[150px]"
         />
       </div>
       <Button type="submit" className="w-full bg-[#E8B4B8] hover:bg-[#D49FA3] text-white">

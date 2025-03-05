@@ -99,7 +99,7 @@ export default function Page() {
           <section id="gallery" className="py-20 bg-gradient-to-b from-[#01D9F0] to-[white]">
       <div className="container mx-auto">
        
-          <h2 className="font-playfair text-4xl md:text-5xl text-[#4A3427] text-center mb-12">Our Creations</h2>
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] text-center mb-12">Our Creations</h2>
           <Gallery />
         
       </div>
@@ -108,7 +108,7 @@ export default function Page() {
       {/* Features Section */}
       <section id="features" className="py-20 bg-gradient-to-b from-[#FDBAF0] to-[white]">
         <div className="container mx-auto">
-          <h2 className="font-playfair text-4xl md:text-5xl text-[#4A3427] text-center mb-12 font-bold">Why Choose Us?</h2>
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] text-center mb-12 font-bold">Why Choose Us?</h2>
           <Features />
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function Page() {
       <section id="gallery2" className="py-20 bg-gradient-to-b from-[#01D9F0] to-[white]">
   <div className="container mx-auto">
     
-      <h2 className="font-playfair text-4xl md:text-5xl text-[#4A3427] text-center mb-12 font-bold">More Sweet Moments</h2>
+      <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] text-center mb-12 font-bold">More Sweet Moments</h2>
       <Gallery2 />
     
   </div>
@@ -128,17 +128,20 @@ export default function Page() {
       {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="container mx-auto max-w-4xl px-4">
-          <h2 className="font-playfair text-4xl md:text-5xl text-[#4A3427] text-center mb-12 font-bold">Get in Touch</h2>
+          <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] text-center mb-12 font-bold">Get in Touch</h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="font-playfair text-2xl text-[#4A3427] mb-4">Visit Us</h3>
-              <p className="text-[#6B5D56] mb-6">
-              3 Sunset Crescent, Umhlanga Ridge
+              <h3 className="font-playfair text-2xl text-[#0f0e0e] mb-4">Visit Us</h3>
+              <p className="text-[#0101010] mb-6">
+              Crescent Shopping Centre
                 <br />
-                Durban, South Africa
+                Ground Floor 
+                Shop 103
+                <br />
+                1-3 Sunset Crescent , Umhlanga, Durban
               </p>
-              <h3 className="font-playfair text-2xl text-[#4A3427] mb-4">Hours</h3>
-              <p className="text-[#6B5D56]">
+              <h3 className="font-playfair text-2xl text-[#0f0e0e] mb-4">Hours</h3>
+              <p className="text-[#0f0e0e]">
               Monday - Friday: 9am - 6pm
                 <br />
                 Saturday: 9am - 4pm

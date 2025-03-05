@@ -8,9 +8,10 @@ export function Footer() {
           <div>
             <h3 className="font-playfair text-xl mb-4">Contact</h3>
             <p className="text-sm">
-              3 Sunset Crescent, Umhlanga Ridge
+            Crescent Shopping Centre, Ground Floor 
+            Shop 103
               <br />
-              Durban, South Africa
+              1-3 Sunset Crescent , Umhlanga, Durban
               <br />
               Phone: (068) 544-9130
               <br />
