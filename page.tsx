@@ -29,7 +29,7 @@ export default function Page() {
 {/* Desktop Hero Section (visible on sm and above) */}
 <section className="relative h-[90vh] hidden sm:flex items-center justify-center w-full">
   <Image
-    src="/hero.jpg"
+    src="/Hero.jpg"
     alt="Beautiful decorated cake"
     fill
     className="object-cover brightness-[0.85]"
