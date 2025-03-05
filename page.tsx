@@ -98,10 +98,10 @@ export default function Page() {
       {/* Gallery Section */}
           <section id="gallery" className="py-20 bg-gradient-to-b from-[#01D9F0] to-[white]">
       <div className="container mx-auto">
-        <div className="bg-white p-6 rounded-lg">
+       
           <h2 className="font-playfair text-4xl md:text-5xl text-[#4A3427] text-center mb-12">Our Creations</h2>
           <Gallery />
-        </div>
+        
       </div>
     </section>
 
