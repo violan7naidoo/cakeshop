@@ -115,17 +115,17 @@ export function Gallery() {
           </div>
           {/* Info Below Image */}
           <div className="mt-4 text-center">
-            <h3 className="text-[#4A3427] text-xl font-playfair mb-2">{image.alt}</h3>
-            <p className="text-[#E8B4B8] font-semibold mb-1">From {image.startingPrice}</p>
-            <div className="text-[#6B5D56] text-sm space-y-1">
+            <h3 className="text-[#222222] text-xl font-playfair mb-2">{image.alt}</h3>
+            <p className="text-[#101010] font-semibold mb-1">From {image.startingPrice}</p>
+            <div className="text-[#242323] text-sm space-y-1">
               <p>
-                <span className="text-[#E8B4B8] font-medium">Sizes:</span> {image.sizes.join(", ")}
+                <span className="text-[#101010] font-medium">Sizes:</span> {image.sizes.join(", ")}
               </p>
               <p>
-                <span className="text-[#E8B4B8] font-medium">Flavors:</span> {image.flavors.join(", ")}
+                <span className="text-[#101010] font-medium">Flavors:</span> {image.flavors.join(", ")}
               </p>
               <p>
-                <span className="text-[#E8B4B8] font-medium">Decor:</span> {image.decor}
+                <span className="text-[#101010] font-medium">Decor:</span> {image.decor}
               </p>
             </div>
           </div>
