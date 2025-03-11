@@ -5,7 +5,7 @@ export function Gallery() {
     {
       src: "/1.png?height=400&width=400",
       alt: "Sponge Cake",
-      startingPrice: "R550",
+      startingPrice: "R650",
       sizes: ["6″", "3 Layers", "15cm"],
       flavors: ["Vanilla", "Chocolate", "Red Velvet"],
       decor: "Colour Drip, Laminimated, Toppers, Beads & Choc",
@@ -14,7 +14,7 @@ export function Gallery() {
       src: "/2.png?height=400&width=400",
       alt: "Sponge Cake",
       startingPrice: "R850",
-      sizes: ["6″", "3 Layers", "18cm"],
+      sizes: ["7″", "3 Layers", "18cm"],
       flavors: ["Chocolate", "Vanilla", "Red Velvet", "Lemon"],
       decor: "Colour, Toppers, Macaroons, Fondant, Decor",
     },
@@ -29,7 +29,7 @@ export function Gallery() {
     {
       src: "/4.png?height=400&width=400",
       alt: "Tier Cake",
-      startingPrice: "R1100",
+      startingPrice: "R1350",
       sizes: ["7″ bottom", "5″ Top"],
       flavors: ["Vanilla", "Chocolate", "RedVelvet", "Orange", "Coconut", "Caramel"],
       decor: "Drip or Plain, Colour, Fondant, Piped Roses, Shimmer & Beads",
