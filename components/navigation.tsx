@@ -16,7 +16,7 @@ export function Navigation() {
     <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <span className="font-playfair text-xl text-[#4A3427]">The Bake Shop at Crescent</span>
+          <span className="font-playfair text-xl text-[#4A3427]">The Bake Shop Crescent</span>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

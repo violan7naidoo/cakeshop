@@ -5,7 +5,7 @@ export function Gallery() {
     {
       src: "/1.png?height=400&width=400",
       alt: "Sponge Cake",
-      startingPrice: "R450",
+      startingPrice: "R550",
       sizes: ["6″", "3 Layers", "15cm"],
       flavors: ["Vanilla", "Chocolate", "Red Velvet"],
       decor: "Colour Drip, Laminimated, Toppers, Beads & Choc",

@@ -13,7 +13,7 @@ export default function Page() {
 
     
 {/* Mobile Hero Section (visible below sm breakpoint) */}
-<section className="relative h-[50vh] flex items-start justify-center sm:hidden">
+<section className="relative h-[40vh] flex items-start justify-center sm:hidden">
   <Image
     src="/main-logo.jpg"
     alt="Beautiful decorated cake (mobile)"
@@ -29,7 +29,7 @@ export default function Page() {
 {/* Desktop Hero Section (visible on sm and above) */}
 <section className="relative h-[90vh] hidden sm:flex items-center justify-center w-full">
   <Image
-    src="/Hero.jpg"
+    src="/main-logo-desktop.jpg"
     alt="Beautiful decorated cake"
     fill
     className="object-cover brightness-[0.85]"
@@ -47,24 +47,23 @@ export default function Page() {
 <section id="about" className="py-20 px-4 bg-gradient-to-b from-[#FDBAF0] to-[white]">
   <div className="container mx-auto max-w-5xl">
     {/* About Us */}
-    <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
-      <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] mb-4 font-bold tracking-tight">About Us</h2>
-        <p className="text-[#0f0e0e] text-lg leading-relaxed font-semibold">
-          Welcome to <span className="italic">The Bake Shop At Crescent</span>, where passion meets perfection. We craft extraordinary cakes—beautiful, delicious, and unforgettable—that turn your celebrations into showstopping moments.
-        </p>
-      </div>
-      <div className="md:w-1/2 animate-fadeInRight">
-        <Image 
-          src="/pp.jpg" 
-          alt="Our Mission" 
-          width={500} 
-          height={300} 
-          className="rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300"
-        />
-      </div>
+    <div className="flex flex-col items-center gap-4 mb-16 md:flex-row md:gap-8">
+    <div className="w-full text-center md:w-1/2 md:text-left">
+      <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] mb-4 font-bold tracking-tight">About Us</h2>
+      <p className="text-[#0f0e0e] text-lg leading-relaxed font-semibold">
+        Welcome to <span className="italic">The Bake Shop At Crescent</span>, where passion meets perfection. We craft extraordinary cakes—beautiful, delicious, and unforgettable—that turn your celebrations into showstopping moments.
+      </p>
     </div>
-
+    <div className="w-full md:w-1/2 animate-fadeInRight">
+      <Image 
+        src="/pp.jpg" 
+        alt="Our Mission" 
+        width={500} 
+        height={300} 
+        className="rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+  </div>
     {/* Our Mission */}
     <div className="text-center mb-16">
       <h2 className="font-playfair text-4xl md:text-5xl text-[#0f0e0e] mb-6 font-bold tracking-tight">Our Mission</h2>
