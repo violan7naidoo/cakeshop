@@ -9,7 +9,7 @@ export function Gallery2() {
     { src: "/ii.jpg?height=400&width=400", alt: "Cake 5" },
     { src: "/q.jpg?height=400&width=400", alt: "Cake 6" },
     { src: "/o.jpg?height=400&width=400", alt: "Cake 7" },
-    { src: "/cc.jpg?height=400&width=400", alt: "Cake 8" },
+    { src: "/pp.jpg?height=400&width=400", alt: "Cake 8" },
     { src: "/b.jpg?height=400&width=400", alt: "Cake 9" },
     { src: "/uu.jpg?height=400&width=400", alt: "Cake 10" },
     { src: "/kk.jpg?height=400&width=400", alt: "Cake 11" },
