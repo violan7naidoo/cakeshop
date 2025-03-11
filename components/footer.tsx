@@ -15,7 +15,7 @@ export function Footer() {
               <br />
               Phone: (068) 544-9130
               <br />
-              Email: info@thebakeshop.co.za
+              Email: info@thebakeshopcrescent.co.za
             </p>
           </div>
           <div>
