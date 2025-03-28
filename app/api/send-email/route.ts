@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: 'The Bake Shop <onboarding@resend.dev>',
-      to: [process.env.CONTACT_FORM_EMAIL || 'info@thebakeshopcrescent.co.za'],
+      to: ['info@thebakeshopcrescent.co.za'],
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
@@ -40,6 +40,19 @@ export async function POST(request: Request) {
       stack: error.stack,
       name: error.name
     });
+
+    // Check if it's a domain verification error
+    if (error.name === 'validation_error' && error.message.includes('verify a domain')) {
+      return NextResponse.json(
+        { 
+          success: false, 
+          error: "Domain verification required. Please verify your domain at resend.com/domains",
+          details: error.message 
+        },
+        { status: 403 }
+      );
+    }
+
     return NextResponse.json(
       { success: false, error: error.message || "Failed to send email" },
       { status: 500 }
